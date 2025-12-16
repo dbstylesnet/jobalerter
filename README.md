@@ -4,8 +4,7 @@ Automated job alert system that monitors a configurable job board (`SITE_URL`) f
 
 ## Features
 
-- ✅ Monitors job board every 3 minutes
- - ✅ Monitors job board on a configurable interval (default: 180 minutes)
+- ✅ Monitors job board on a configurable interval (default: 180 minutes)
 - ✅ Uses Firecrawl API for reliable web scraping
 - ✅ Sends email notifications via Resend API
 - ✅ Tracks seen jobs to avoid duplicate notifications
@@ -19,6 +18,10 @@ Automated job alert system that monitors a configurable job board (`SITE_URL`) f
    ```
 
 2. **Configure environment variables:**
+   Get the api-key from www.firecrawl.de after creating the account.
+   Same for Resend from https://resend.com/.
+
+   Then provide the keys to .env file as per example below.
 
    This repository already contains a tracked `.env` file at the project root. Edit that file to provide your API keys and configuration values.
 
