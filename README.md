@@ -76,8 +76,6 @@ Security note: because this repository currently tracks `.env`, avoid committing
 
 - The script will run continuously until stopped (Ctrl+C)
 - Job tracking data is stored in `jobs_db.json`
-- First run will send notifications for all current jobs (to establish baseline)
-- Make sure your Resend account has a verified sender domain or use the default onboarding email
 
 ## Troubleshooting
 
