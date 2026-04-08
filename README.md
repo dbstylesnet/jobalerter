@@ -70,8 +70,6 @@ SITE_URL=https://example.com
 CHECK_INTERVAL_MINUTES=180
 ```
 
-Security note: because this repository currently tracks `.env`, avoid committing long-lived or production secrets here. Consider using a secrets manager or CI/CD protected variables for production deployments.
-
 ## Notes
 
 - The script will run continuously until stopped (Ctrl+C)
